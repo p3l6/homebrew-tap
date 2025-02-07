@@ -5,6 +5,9 @@ class BagNotation < Formula
   sha256 "a91b05c7fb9c7d84d3f5c05f1877e3c432cda4c88fd1dc37fecfc94768148471"
   license "MIT"
 
+  depends_on "ghostscript" => :recommended
+  depends_on "p3l6/tap/abcm2ps" => :recommended
+
   uses_from_macos "swift" => [:build, :test]
 
   def install

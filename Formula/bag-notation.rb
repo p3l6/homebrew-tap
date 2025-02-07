@@ -2,7 +2,7 @@ class BagNotation < Formula
   desc "Compiler for .bag music files"
   homepage "https://github.com/p3l6/bag-notation"
   url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "5a85e9372d6819769668fcfa43aa1087d1e4cf7fffe8ac0533924d2e7a7cb0b6"
+  sha256 "a91b05c7fb9c7d84d3f5c05f1877e3c432cda4c88fd1dc37fecfc94768148471"
   license "MIT"
 
   uses_from_macos "swift" => [:build, :test]

@@ -5,7 +5,7 @@ class BagNotation < Formula
   sha256 "2aff0851b06d3ecb23f1a1f827dd18b98a9ebbdac96067d4c91cb04b79287a3a"
   license "MIT"
 
-  uses_from_macos "swift" => [:build, :test]
+  uses_from_macos "swift" => ["6", :build, :test]
 
   def install
     system "swift", "build", "--configuration", "release", "--disable-sandbox"

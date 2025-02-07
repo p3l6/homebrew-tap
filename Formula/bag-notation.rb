@@ -1,11 +1,11 @@
 class BagNotation < Formula
   desc "Compiler for .bag music files"
   homepage "https://github.com/p3l6/bag-notation"
-  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "2aff0851b06d3ecb23f1a1f827dd18b98a9ebbdac96067d4c91cb04b79287a3a"
+  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "5a85e9372d6819769668fcfa43aa1087d1e4cf7fffe8ac0533924d2e7a7cb0b6"
   license "MIT"
 
-  uses_from_macos "swift" => ["6", :build, :test]
+  uses_from_macos "swift" => [:build, :test]
 
   def install
     system "swift", "build", "--configuration", "release", "--disable-sandbox"

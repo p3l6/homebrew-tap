@@ -8,7 +8,11 @@ class BagNotation < Formula
   uses_from_macos "swift" => [:build, :test]
 
   def install
-    system "swift", "build", "--configuration", "release", "--disable-sandbox"
+    if OS.linux?
+      system "swift", "build", "--configuration", "release", "--disable-sandbox", "--static-swift-stdlib"
+    else
+      system "swift", "build", "--configuration", "release", "--disable-sandbox"
+    end
     bin.install ".build/release/bag"
   end
 

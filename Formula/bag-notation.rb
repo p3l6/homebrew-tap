@@ -1,8 +1,8 @@
 class BagNotation < Formula
   desc "Compiler for .bag music files"
   homepage "https://github.com/p3l6/bag-notation"
-  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "da74be69c05ee3416c3142d7df7ba33e6cb5320e5cb1037d13b8775d030eca63"
+  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "a203fb58f706fd3408a371536ec9d0a7cc7d9492b5808b7bffde040d03dd1d0a"
   license "MIT"
 
   bottle do

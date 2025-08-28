@@ -12,8 +12,9 @@ class BagNotation < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux:  "2f97842c2d9039719d9c44165402b302dc6146c225bcd118b3b4e0291ff68c72"
   end
 
-  depends_on "ghostscript" => :recommended
   depends_on xcode: "16.0"
+
+  depends_on "ghostscript" => :recommended
   depends_on "p3l6/tap/abcm2ps" => :recommended
 
   uses_from_macos "swift" => [:build, :test]

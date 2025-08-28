@@ -13,8 +13,8 @@ class BagNotation < Formula
   end
 
   depends_on "ghostscript" => :recommended
+  depends_on xcode: "16.0"
   depends_on "p3l6/tap/abcm2ps" => :recommended
-  depends_on :xcode => "16.0"
 
   uses_from_macos "swift" => [:build, :test]
 

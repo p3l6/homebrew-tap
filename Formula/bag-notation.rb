@@ -6,10 +6,9 @@ class BagNotation < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/p3l6/homebrew-tap/releases/download/bag-notation-0.4.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c5faa6a3e953875d417beed38801c6b668a335df67533db5c494add4f152551f"
-    sha256 cellar: :any_skip_relocation, ventura:       "992289102d4d77956df659e026627c86095a604b1280e3140496c25c42395375"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "2f97842c2d9039719d9c44165402b302dc6146c225bcd118b3b4e0291ff68c72"
+    root_url "https://github.com/p3l6/homebrew-tap/releases/download/bag-notation-1.0.0"
+    sha256 arm64_sequoia: "bd53c6a00ec71f82aa608048431c624b4e8d25e7abb690c2c4b6c9be3d1cd69e"
+    sha256 x86_64_linux:  "36c3dd45a68308a63ef608307c1324dea7e5184f18a07e19939f2d46edc286dd"
   end
 
   depends_on xcode: "16.0"

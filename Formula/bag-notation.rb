@@ -1,8 +1,8 @@
 class BagNotation < Formula
   desc "Compiler for .bag music files"
   homepage "https://github.com/p3l6/bag-notation"
-  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "a203fb58f706fd3408a371536ec9d0a7cc7d9492b5808b7bffde040d03dd1d0a"
+  url "https://github.com/p3l6/bag-notation/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "3583a51e42fadfcf8ffd2ab30a630aefe1fc60b7bb71485337560f6ac2a94db2"
   license "MIT"
 
   bottle do
@@ -14,6 +14,7 @@ class BagNotation < Formula
 
   depends_on "ghostscript" => :recommended
   depends_on "p3l6/tap/abcm2ps" => :recommended
+  depends_on :xcode => "16.0"
 
   uses_from_macos "swift" => [:build, :test]
 

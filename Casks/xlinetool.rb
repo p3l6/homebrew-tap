@@ -1,6 +1,6 @@
 cask "xlinetool" do
-  version "1.1.0"
-  sha256 "2ae664c57e3f77446ee015eaa7a762486e34d5a5c285b57f7c058449e33922c9"
+  version "1.1.1"
+  sha256 "4293673a1145b955082b0372e8bb3026e6cf3526ba95f0600613376114fe2c18"
 
   url "https://github.com/p3l6/XLineTool/releases/download/v#{version}/XLineTool.zip"
   name "xlinetool"

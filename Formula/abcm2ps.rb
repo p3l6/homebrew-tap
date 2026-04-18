@@ -22,7 +22,7 @@ class Abcm2ps < Formula
 
   test do
     (testpath/"voices.abc").write <<~ABC
-      X:7
+      X:8
       T:Qui Tolis (Trio)
       C:Andre Raison
       M:3/4

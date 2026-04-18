@@ -11,7 +11,6 @@ class BagNotation < Formula
     sha256 x86_64_linux:  "36c3dd45a68308a63ef608307c1324dea7e5184f18a07e19939f2d46edc286dd"
   end
 
-  depends_on macos: ">= :sequoia"
   depends_on xcode: "26.0"
 
   depends_on "ghostscript" => :recommended

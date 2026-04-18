@@ -7,10 +7,9 @@ class Abcm2ps < Formula
 
   bottle do
     root_url "https://github.com/p3l6/homebrew-tap/releases/download/abcm2ps-8.15.0"
-    rebuild 1
-    sha256 arm64_sequoia: "65e94a059ddef3c9261b1c16e5bdb1fa9410b236834724303080d0a21d562799"
-    sha256 arm64_sonoma:  "15ec1ebbf580a23bca77a68cd6304e40b0dd47338c810f2669e8fc466df00ced"
-    sha256 x86_64_linux:  "80764bad853cf8f5e9d97116fcd1a0ebcd151d402de649fa02f213bce1e46685"
+    rebuild 2
+    sha256 arm64_tahoe:  "9e9d2eba510b53bd6abaeac03d39e15e4b674e3b6bac89e797579e72ab87acfc"
+    sha256 x86_64_linux: "fc6efbe445f36d306539853b5eda3c54986803aa558341654670766b41791753"
   end
 
   depends_on "pkgconf" => :build

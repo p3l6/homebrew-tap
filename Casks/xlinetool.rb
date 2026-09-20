@@ -7,7 +7,7 @@ cask "xlinetool" do
   desc "Xcode extension providing duplicate line and insert newline after current"
   homepage "https://github.com/p3l6/XLineTool"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "XLineTool.app"
 end
